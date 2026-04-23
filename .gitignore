@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+# STM32CubeIDE build folders
+Debug/
+Release/
+build/
+
+# STM32CubeIDE project settings
+.settings/
+.project
+.cproject
+
+# Optional: ignore CubeMX backup files
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
